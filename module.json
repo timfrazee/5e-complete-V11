@@ -14,12 +14,25 @@
         "minimum": "11.315",
         "verified": "12"
     },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+                "compatibility": {
+                    "minimum": "3",
+                    "verified": "3.0.3"
+                }
+            }
+        ]
+    },
+    "system": ["dnd5e"],
     "packs": [
         {
             "name": "5e-creatures",
             "label": "5e Creatures",
             "path": "packs/5e-creatures.db",
-            "entity": "Actor",
             "type": "Actor",
             "system": "dnd5e"
         },
@@ -27,7 +40,6 @@
             "name": "5e-backgrounds",
             "label": "5e Backgrounds",
             "path": "packs/5e-backgrounds.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -35,7 +47,6 @@
             "name": "5e-background-features",
             "label": "5e Background Features",
             "path": "packs/5e-background-features.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -43,7 +54,6 @@
             "name": "5e-classes",
             "label": "5e Classes",
             "path": "packs/5e-classes.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -51,7 +61,6 @@
             "name": "5e-class-features",
             "label": "5e Class Features",
             "path": "packs/5e-class-features.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -59,7 +68,6 @@
             "name": "5e-creature-abilities",
             "label": "5e Creature Abilities",
             "path": "packs/5e-creature-abilities.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -67,7 +75,6 @@
             "name": "5e-feats",
             "label": "5e Feats",
             "path": "packs/5e-feats.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -75,7 +82,6 @@
             "name": "5e-items",
             "label": "5e Items",
             "path": "packs/5e-items.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -83,7 +89,6 @@
             "name": "5e-races",
             "label": "5e Races",
             "path": "packs/5e-races.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -91,7 +96,6 @@
             "name": "5e-racial-features",
             "label": "5e Racial Features",
             "path": "packs/5e-racial-features.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -99,7 +103,6 @@
             "name": "5e-spells",
             "label": "5e Spells",
             "path": "packs/5e-spells.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -107,7 +110,6 @@
             "name": "5e-subclasses",
             "label": "5e Subclasses",
             "path": "packs/5e-subclasses.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         },
@@ -115,7 +117,6 @@
             "name": "5e-macros",
             "label": "5e Macros",
             "path": "packs/5e-macros.db",
-            "entity": "Macro",
             "type": "Macro",
             "system": "dnd5e"
         },
@@ -123,7 +124,6 @@
             "name": "5e-roll-tables",
             "label": "5e Roll Tables",
             "path": "packs/5e-roll-tables.db",
-            "entity": "RollTable",
             "type": "RollTable",
             "system": "dnd5e"
         },
@@ -131,7 +131,6 @@
             "name": "5e-trade-goods",
             "label": "5e Trade Goods",
             "path": "packs/5e-trade-goods.db",
-            "entity": "Item",
             "type": "Item",
             "system": "dnd5e"
         }
