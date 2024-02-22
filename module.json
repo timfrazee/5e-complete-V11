@@ -11,8 +11,8 @@
         }
     ],
     "compatibility": {
-        "minimum": "11",
-        "verified": "11"
+        "minimum": "11.315",
+        "verified": "12"
     },
     "packs": [
         {
