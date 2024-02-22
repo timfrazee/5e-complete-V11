@@ -3,7 +3,6 @@
     "title": "5e Complete Compendium",
     "description": "This module adds classes, subclasses, and other items missing from the D&D 5e SRD",
     "version": "0.3.6",
-    "system": "dnd5e",
     "authors": [
         {
             "name": "btbias",
@@ -11,6 +10,10 @@
             "discord": "btbias#9324"
         }
     ],
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
     "packs": [
         {
             "name": "5e-creatures",
